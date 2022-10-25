@@ -5,14 +5,9 @@ def merge_max_mappings(dict1, dict2):
             new_dict[k] = max(dict1[k], dict2[k])
         else:
             new_dict[k] = dict1[k]
-    print(new_dict)
+    return new_dict
 
 
-dict1 = {'bananas': 7, 'apples': 3, 'pears': 14}
-dict2 = {'bananas': 3, 'apples': 6, 'grapes': 9}
-merge_max_mappings(dict1, dict2)
-
-"""
 def test_bananas():
     dict1 = {'bananas': 7, 'apples': 3, 'pears': 14}
     dict2 = {'bananas': 3, 'apples': 6, 'grapes': 9}
@@ -22,4 +17,5 @@ def test_bananas():
         print("Test passed!")
     else:
         print("Oh no :(")
-"""
+
+test_bananas()

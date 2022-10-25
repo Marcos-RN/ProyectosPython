@@ -3,5 +3,5 @@
 ## Usage
 
 ```python
-
+$ python main.py
 ```
